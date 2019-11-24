@@ -17,13 +17,15 @@ Installation
 
 1. Install RedHook2 from https://github.com/DottieDot/RedHook2/releases
 
-2. Create a folder named 'scripts' in the RDR2 game folder, if it does not already exist.
+2. Install MRuby Script Hook from https://github.com/lmc/rdr2-mruby/blob/master/release/rdr2-mruby-v001.zip
 
-3. Copy the contents of the 'release' folder into the 'Red Dead Redemption 2/scripts' folder. This should leave you with 'rdr2-mruby.asi' and the 'rdr2-mruby' sub-folder inside the scripts folder.
+3. Create a folder named 'scripts' in the RDR2 game folder, if it does not already exist.
 
-4. Use RedHook2's loader.exe, then launch the game through the Rockstar Games Launcher.
+4. Copy the contents of the 'release' folder into the 'Red Dead Redemption 2/scripts' folder. This should leave you with 'rdr2-mruby.asi' and the 'rdr2-mruby' sub-folder inside the scripts folder.
 
-5. Upon loading a saved game, the Ruby scripts should start running, with a status message displayed at the top of the screen by default.
+5. Use RedHook2's loader.exe, then launch the game through the Rockstar Games Launcher.
+
+6. Upon loading a saved game, the Ruby scripts should start running, with a status message displayed at the top of the screen by default.
 
 
 
@@ -49,7 +51,7 @@ Arguments and return values will generally be standard Ruby objects, with handle
 
 Here is a recommended boilerplate example script, to demonstrate the structure:
 
-```
+```ruby
 # define script to be executed in the block body 
 RDR2.script(:draw) do
 
