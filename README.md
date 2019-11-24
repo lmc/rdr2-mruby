@@ -2,7 +2,7 @@
 Red Dead Redemption 2 MRuby Script Hook
 =======================================
 
-![RDR2 game running with Ruby script output in console window](rdr2-mruby.png)
+![RDR2 game running with Ruby script output in console window](https://raw.githubusercontent.com/lmc/rdr2-mruby/master/rdr2-mruby.png)
 
 
 Overview
