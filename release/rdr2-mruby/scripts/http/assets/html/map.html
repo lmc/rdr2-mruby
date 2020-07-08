@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="UTF-8">
+    <title>RDR2-MRuby</title>
+
+    <link rel="shortcut icon" href="/favicon.ico">
+
+    <script async src="/assets/js/dummy.js"></script>
+    <script async src="/assets/js/application.js"></script>
+
+    <style>
+      #container {
+        zoom: 2.0;
+        position: relative;
+      }
+      #map_layers {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 7200px;
+        height: 5400px;
+        z-index: 10;
+      }
+      #map_background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 7200px;
+        height: 5400px;
+        z-index: 5;
+      }
+
+      polygon.player {
+        fill: #fff;
+        stroke: #000;
+        stroke-width: 0.15px;
+      }
+
+      polygon.ped {
+        fill: #2dd;
+        stroke: #000;
+        stroke-width: 0.15px;
+      }
+
+      polygon.model_A_C_Duck_01,
+      polygon.model_A_C_Pheasant_01,
+      polygon.model_A_C_SongBird_01,
+      polygon.model_A_C_Chicken_01
+        {
+        fill: #f88;
+      }
+
+
+    </style>
+
+  </head>
+  <body>
+
+    <div id="container">
+      <svg id="map_layers" viewBox="0 0 7200 5400">
+        <rect x="0" y="0" width="20" height="20" />
+      </svg>
+      <img id="map_background" src="/assets/images/map0.jpg">
+    </div>
+  
+  </body>
+</html>
